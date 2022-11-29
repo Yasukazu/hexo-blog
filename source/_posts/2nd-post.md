@@ -27,3 +27,6 @@ git add .
 git commit -m 'update'
 git push
 ```
+## Fix own timezone:
+- Search in Hexo folder 'timezone'
+- Fix '-0000' as '*CountryName*'
