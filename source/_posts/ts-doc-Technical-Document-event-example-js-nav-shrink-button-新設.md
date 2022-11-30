@@ -16,7 +16,7 @@ const pc_media = "(min-width: 540px)";
 const dbody = document.querySelector('body').style;
 ```
 ## 拡大ボタン関数
-```
+``` js
 nav_expand_button.onclick = () => {
   const isPC = window.matchMedia(pc_media).matches;
   const dst = "--nav-" + (isPC ? 'w' : 'h');
@@ -25,7 +25,7 @@ nav_expand_button.onclick = () => {
 }
 ```
 ## 縮小ボタン関数
-```
+``` js
 nav_shrink_button.onclick = () => {
   const isPC = window.matchMedia(pc_media).matches;
   const dst = "--nav-" + (isPC ? 'w' : 'h');
