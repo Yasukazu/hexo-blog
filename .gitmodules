@@ -1,0 +1,3 @@
+[submodule "quickstart/themes/mini"]
+	path = quickstart/themes/mini
+	url = https://github.com/nodejh/hugo-theme-mini.git
