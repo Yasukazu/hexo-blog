@@ -13,7 +13,7 @@ timezone: 'Japan'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://yasukazu.github.io/blog
+url: https://yasukazu.github.io/docs
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

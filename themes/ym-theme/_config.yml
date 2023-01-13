@@ -11,9 +11,3 @@ menu:
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/ym.css
-
-# scripts loaded in the end of the body
-scripts:
-- /js/ym.js
-
-
