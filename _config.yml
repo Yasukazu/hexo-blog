@@ -4,10 +4,10 @@
 
 # Site
 title: Hexo trial
-subtitle: 'Blog'
-description: ''
-keywords:
-author: YM
+subtitle: 'Webpage technical Blog'
+description: 'A log to use Hexo static site generator'
+keywords: JavaScript, HTML, CSS
+author: Y-M
 language: ja
 timezone: 'Japan'
 
@@ -97,9 +97,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: ym-theme
+#theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Custom index page
