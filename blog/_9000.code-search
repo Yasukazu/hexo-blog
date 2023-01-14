@@ -1,0 +1,9 @@
+# Query: +9000
+# ContextLines: 1
+
+1 result - 1 file
+
+_config.yml:
+  11  language: ja
+  12: timezone: 'GMT+09'
+  13  
