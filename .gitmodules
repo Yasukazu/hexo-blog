@@ -4,3 +4,6 @@
 [submodule "themes/brewski"]
 	path = themes/brewski
 	url = https://github.com/tiaanduplessis/hexo-theme-brewski.git
+[submodule "themes/ym-brewski"]
+	path = themes/ym-brewski
+	url = https://github.com/Yasukazu/ym-brewski.git

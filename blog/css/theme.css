@@ -1,4 +1,3 @@
-@import 'https://unpkg.com/@acab/reset.css';
 body {
   color: #222831;
   font-size: calc(110% + 0.1vw);
@@ -6,6 +5,20 @@ body {
   background-color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
     "Helvetica Neue", sans-serif;
+}
+
+article.post-block > h1.post-title {
+  font-size: 1.2rem;
+  background-color: #0b0;
+}
+div.post-content {
+border: thin solid green;
+}
+div.post-content h1 {
+  font-size: 1.2rem;
+}
+div.post-content h2 {
+  font-size: 1.1rem;
 }
 
 .wrap {
@@ -112,20 +125,6 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-}
-
-article.post-block > h1.post-title {
-  font-size: 1.2rem;
-  background-color: #0b0;
-}
-div.post-content {
-border: thin solid green;
-}
-div.post-content h1 {
-  font-size: 1.2rem;
-}
-div.post-content h2 {
-  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -671,7 +670,4 @@ pre .emphasis {
 }
 pre .strong {
   font-weight: 600;
-}
-li.post-list-item > article.post-block > h2.post-title {
-  font-size: 1.2rem;
 }
