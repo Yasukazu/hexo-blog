@@ -12,6 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@acab/reset.css": "^0.5.3",
     "hexo": "^6.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
