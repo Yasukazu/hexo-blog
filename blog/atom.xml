@@ -37,13 +37,13 @@
   </entry>
   
   <entry>
-    <title>Hexo config url and public_dir</title>
+    <title>Hexo config url and public_dir and document-root settings</title>
     <link href="https://www.yskz.xyz/blog/2023/01/15/Hexo-config-somehow/"/>
     <id>https://www.yskz.xyz/blog/2023/01/15/Hexo-config-somehow/</id>
     <published>2023-01-15T08:43:00.000Z</published>
-    <updated>2023-01-15T18:56:32.781Z</updated>
+    <updated>2023-01-15T23:36:11.222Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2F-dir’"><a href="#Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2F-dir’" class="headerlink" title="Hexo assumes its generated website is accessed as ‘URL&#x2F;dir’"></a>Hexo assumes its generated website is accessed as ‘URL&#x2F;dir’</h1><p>A typical usecase is <code>www.example.com/blog</code>.<br>So, about <code>_config.yml</code>, last path of <code>url</code> and <code>public_dir</code> must be the same. </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2F-dir’"><a href="#Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2F-dir’" class="headerlink" title="Hexo assumes its generated website is accessed as ‘URL&#x2F;dir’"></a>Hexo assumes its generated website is accessed as ‘URL&#x2F;dir’</h1><h2 id="Configuration-file"><a href="#Configuration-file" class="headerlink" title="Configuration file"></a>Configuration file</h2><p>A typical usecase is <code>www.example.com/blog</code>.<br>So, about <code>_config.yml</code>, last path of <code>url</code> and <code>public_dir</code> must be the same. </p><h2 id="How-to-set-the-hexo-generated-website-with-‘document-root’-in-a-VPS"><a href="#How-to-set-the-hexo-generated-website-with-‘document-root’-in-a-VPS" class="headerlink" title="How to set the hexo-generated website with ‘document root’ in a VPS"></a>How to set the hexo-generated website with ‘document root’ in a VPS</h2><ol><li>In the same directory where document root exists, clone the hexo website repository.(repository name as <code>hexo-blog</code>)</li><li>Make a symbolic link of <code>hexo-blog/blog</code> into the document root as <code>blog</code></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[DocumentRoot]$ <span class="built_in">ln</span> -s hexo-blog/blog /blog</span><br></pre></td></tr></table></figure><ol start="3"><li>Make a symbolic link of <code>hexo-blog/blog/index.html</code> into the document root as <code>index.html</code></li></ol>]]></content>
     
     
       
