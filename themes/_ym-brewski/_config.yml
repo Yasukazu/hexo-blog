@@ -1,0 +1,23 @@
+language: ja
+name: ym-Brewski
+url: https://github.com/Yasukazu/ym-hexo-theme-brewski
+
+menu:
+  Home: /
+  Archives: /archives
+  RSS: /atom.xml
+
+favicon:
+logo: 
+
+# Disqus shortname
+disqus:
+
+# Analytics
+google_analytics:
+
+# Copyright Infomation
+copyright: 
+  since: 
+  name: 
+  url:
