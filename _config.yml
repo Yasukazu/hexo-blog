@@ -9,7 +9,7 @@ description: 'A log to use Hexo static site generator'
 keywords: JavaScript, HTML, CSS
 author: Y-M
 language: ja
-timezone: asia/Tokyo
+timezone: Asia/Tokyo
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
