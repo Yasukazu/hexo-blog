@@ -4,6 +4,7 @@ db.json
 *.log
 node_modules/
 blog/
-index.html
+index.html*
 .deploy*/
 _multiconfig.yml
+.ssh/
