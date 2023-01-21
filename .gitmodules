@@ -1,3 +1,6 @@
 [submodule "themes/ym-brewski"]
 	path = themes/ym-brewski
 	url = https://github.com/Yasukazu/ym-brewski.git
+[submodule "blog"]
+	path = blog
+	url = https://github.com/Yasukazu/blog.git
