@@ -6,7 +6,7 @@
   <link href="https://yasukazu.github.io/hexo-blog/atom.xml" rel="self"/>
   
   <link href="https://yasukazu.github.io/hexo-blog/"/>
-  <updated>2023-01-22T10:53:35.897Z</updated>
+  <updated>2023-01-22T13:45:27.820Z</updated>
   <id>https://yasukazu.github.io/hexo-blog/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>public_dir:docs;url:.../hexo-blog</title>
+    <link href="https://yasukazu.github.io/hexo-blog/2023/01/22/public-dir-docs-url-hexo-blog/"/>
+    <id>https://yasukazu.github.io/hexo-blog/2023/01/22/public-dir-docs-url-hexo-blog/</id>
+    <published>2023-01-22T13:38:17.000Z</published>
+    <updated>2023-01-22T13:45:27.820Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Edited-config-yml"><a href="#Edited-config-yml" class="headerlink" title="Edited _config.yml"></a>Edited <code>_config.yml</code></h1><ul><li>Set <code>public_dir</code> name as <code>docs</code> to make it the root directory of GitHub Pages.</li><li>Set <code>url</code> to ends with <code>hexo-blog</code> : the same as GitHub repository name.</li></ul><h2 id="Countermeasure-to-preview-with-Live-Server"><a href="#Countermeasure-to-preview-with-Live-Server" class="headerlink" title="Countermeasure to preview with Live Server:"></a>Countermeasure to preview with Live Server:</h2><ul><li>Made a symbolic link as named <code>hexo-blog</code> to point <code>docs</code> directory.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Edited-config-yml&quot;&gt;&lt;a href=&quot;#Edited-config-yml&quot; class=&quot;headerlink&quot; title=&quot;Edited _config.yml&quot;&gt;&lt;/a&gt;Edited &lt;code&gt;_config.yml&lt;/code&gt;&lt;/h</summary>
+      
+    
+    
+    
+    
+    <category term="GitHub, url, public_dir" scheme="https://yasukazu.github.io/hexo-blog/tags/GitHub-url-public-dir/"/>
+    
+  </entry>
   
   <entry>
     <title>Installed _hexo-blog_ to my VPS</title>

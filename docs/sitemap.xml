@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yasukazu.github.io/hexo-blog/2023/01/22/public-dir-docs-url-hexo-blog/</loc>
+    
+    <lastmod>2023-01-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yasukazu.github.io/hexo-blog/2023/01/22/Installed-hexo-blog-to-my-VPS/</loc>
     
     <lastmod>2023-01-22</lastmod>
@@ -145,6 +154,13 @@
   
   <url>
     <loc>https://yasukazu.github.io/hexo-blog/tags/js-HTML-nav/</loc>
+    <lastmod>2023-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yasukazu.github.io/hexo-blog/tags/GitHub-url-public-dir/</loc>
     <lastmod>2023-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

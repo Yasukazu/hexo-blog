@@ -1,3 +1,4 @@
+https://yasukazu.github.io/hexo-blog/2023/01/22/public-dir-docs-url-hexo-blog/
 https://yasukazu.github.io/hexo-blog/2023/01/22/Installed-hexo-blog-to-my-VPS/
 https://yasukazu.github.io/hexo-blog/2023/01/13/Installed-generator-hexo-theme/
 https://yasukazu.github.io/hexo-blog/2023/01/17/fix-timezone-again/
@@ -15,3 +16,4 @@ https://yasukazu.github.io/hexo-blog/2022/11/30/ts-doc-wiki/
 https://yasukazu.github.io/hexo-blog
 https://yasukazu.github.io/hexo-blog/tags/Windows-node-install/
 https://yasukazu.github.io/hexo-blog/tags/js-HTML-nav/
+https://yasukazu.github.io/hexo-blog/tags/GitHub-url-public-dir/
