@@ -13,3 +13,6 @@
 [submodule "themes/ym-start"]
 	path = themes/ym-start
 	url = git@github.com:Yasukazu/ym-start.git
+[submodule "blog"]
+	path = blog
+	url = git@github.com:Yasukazu/blog.git
