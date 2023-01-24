@@ -10,3 +10,6 @@
 [submodule "source/_posts"]
 	path = source/_posts
 	url = https://github.com/Yasukazu/_posts.git
+[submodule "themes/ym-start"]
+	path = themes/ym-start
+	url = git@github.com:Yasukazu/ym-start.git
