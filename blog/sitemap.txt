@@ -1,3 +1,4 @@
+https://www.yskz.xyz/blog/2023/01/24/Switched-to-hexo-theme-starter/
 https://www.yskz.xyz/blog/2023/01/22/public-dir-docs-url-hexo-blog/
 https://www.yskz.xyz/blog/2023/01/22/Installed-hexo-blog-to-my-VPS/
 https://www.yskz.xyz/blog/2023/01/13/Installed-generator-hexo-theme/
@@ -17,3 +18,4 @@ https://www.yskz.xyz/blog
 https://www.yskz.xyz/blog/tags/Windows-node-install/
 https://www.yskz.xyz/blog/tags/js-HTML-nav/
 https://www.yskz.xyz/blog/tags/GitHub-url-public-dir/
+https://www.yskz.xyz/blog/tags/starter-theme/

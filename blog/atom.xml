@@ -6,7 +6,7 @@
   <link href="https://www.yskz.xyz/blog/atom.xml" rel="self"/>
   
   <link href="https://www.yskz.xyz/blog/"/>
-  <updated>2023-01-22T14:06:26.578Z</updated>
+  <updated>2023-01-24T07:08:02.370Z</updated>
   <id>https://www.yskz.xyz/blog/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Switched to my fork of &#39;hexo-theme-starter&#39;</title>
+    <link href="https://www.yskz.xyz/blog/2023/01/24/Switched-to-hexo-theme-starter/"/>
+    <id>https://www.yskz.xyz/blog/2023/01/24/Switched-to-hexo-theme-starter/</id>
+    <published>2023-01-24T06:30:44.000Z</published>
+    <updated>2023-01-24T07:08:02.370Z</updated>
+    
+    <content type="html"><![CDATA[<p>Felt to change my Hexo theme because current theme seemed too complicated to modify.</p><p><em>starter</em> theme looked simpler than current one.</p><p>At first, it had no style sheet.  So I tried to add a style sheet following the same way of the previous theme.</p><ul><li>Added <code>source/css/theme.css</code> file</li><li>Added a stylesheet as <code>href=url_for(&#39;css/theme.css&#39;)</code> in <code>layout/_include/head.pug</code></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Felt to change my Hexo theme because current theme seemed too complicated to modify.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;starter&lt;/em&gt; theme looked simpler than cu</summary>
+      
+    
+    
+    
+    
+    <category term="starter-theme" scheme="https://www.yskz.xyz/blog/tags/starter-theme/"/>
+    
+  </entry>
   
   <entry>
     <title>public_dir:docs;url:.../hexo-blog</title>
