@@ -5,15 +5,15 @@
 # Site
 title: Hexo trial
 subtitle: 'Webpage technical Blog'
-description: 'A log to use Hexo static site generator'
+description: 'A web log to use Hexo static site generator'
 keywords: JavaScript, HTML, CSS
 author: Y-M
-language: ja
-timezone: 'Japan'
+language: en
+timezone: Asia/Tokyo
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.yskz.xyz/blog/
+url: https://www.yskz.xyz/blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ym-brewski
+# theme: ym-brewski
+theme: ym-start
 #theme: landscape
 
 # Deployment
