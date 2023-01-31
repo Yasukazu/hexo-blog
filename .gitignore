@@ -8,3 +8,4 @@ _multiconfig.yml
 .ssh/
 source/_posts
 css/
+node_modules/
