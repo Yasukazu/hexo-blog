@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="A web log to use Hexo static site generator">
+    <meta name="author" content="Y-M">
+    <title>Does Hexo markdown escapes HTML special characters? | Hexo trial</title>
+    <link rel="icon" href="/">
+    <link rel="stylesheet" href="https://unpkg.com/@csstools/normalize.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <meta name="generator" content="Hexo 6.3.0">
+    <link rel="alternate" href="/atom.xml" title="Hexo trial" type="application/atom+xml">
+</head>
+
+<body>
+    <header>
+        <hgroup class="title-subtitle">
+            <h1>Hexo trial</h1>
+            <p>A trial log to use Hexo static website generator</p>
+        </hgroup>
+        <ul class="header">
+            <li class="home"><a href="/">Home</a></li>
+            <li class="about"><a href="/about/">About</a></li>
+        </ul>
+    </header>
+    <main class="post">
+        <article class="post">
+            <header>
+                <h1 class="title">Does Hexo markdown escapes HTML special characters?</h1><time class="date">2023-02-01</time>
+            </header>
+            <hr>
+            <div class="content">
+                <p>In Hexo, A markdown-format post is converted to HTML.<br>HTML document needs to escape special two characters of ‘Less than’ and ‘Greater than’:<br>‘&lt;’</p>
+                <p>‘&gt;’</p>
+                <p>as:</p>
+                <figure class="highlight plaintext">
+                    <table>
+                        <tr>
+                            <td class="gutter">
+                                <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
+                            </td>
+                            <td class="code">
+                                <pre><span class="line">&amp;lt;</span><br><span class="line">&amp;gt;</span><br></pre>
+                            </td>
+                        </tr>
+                    </table>
+                </figure>
+                <p>&lt;br&gt;<br>is written as:<br><code>\&lt;br\&gt;</code></p>
+                <h2 id="Result-of-entities"><a href="#Result-of-entities" class="headerlink" title="Result of entities:"></a>Result of entities:</h2>
+                <ul>
+                    <li>&lt; and &gt; must escape manually markdown writer himself &#x2F; herself.</li>
+                    <li>Other HTML entities like aportrophe(&amp;apos;) are no need to escape.</li>
+                </ul>
+                <h3 id="Escaping-special-characters-‘L-T-’-lt-‘G-T-’-gt-and-‘back-slash’"><a href="#Escaping-special-characters-‘L-T-’-lt-‘G-T-’-gt-and-‘back-slash’" class="headerlink" title="Escaping special characters ‘L.T.’(&lt;), ‘G.T.’(&gt;) and ‘back-slash’(\)"></a>Escaping special characters ‘L.T.’(&lt;), ‘G.T.’(&gt;) and ‘back-slash’(
+                    <pre lang='en'>\</pre>)
+                </h3>
+                <p> Three special characters:<br> [ <em>less-than</em> , <em>greater-than</em> , <em>back-slash</em> ]<br>[&lt;, &gt;, \]</p>
+                <p> need a <strong>backslash</strong> is inserted in front of each of them like:<br>[\&lt;, \&gt;, \\]</p>
+                <p> not to be treated as embedding HTML tags and an <strong>escape</strong> character.</p>
+            </div>
+            <hr>
+        </article>
+    </main>
+    <div class="paginator">
+        <div><a href="/2023/02/01/pug-out-post-in-pug/"> &rarr;</a></div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Y-M.</p>
+        <p>Powered by&nbsp;<a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span>.</span></p>
+    </footer>
+    <script>
+        function googleTranslateElementInit()
+        {
+            new google.translate.TranslateElement(
+            {
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+            }, 'google_translate_element');
+        }
+
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo trial</title>
+  
+  <subtitle>Webpage technical Blog</subtitle>
+  <link href="https://blog.yskz.dev/atom.xml" rel="self"/>
+  
+  <link href="https://blog.yskz.dev/"/>
+  <updated>2023-02-01T12:18:17.672Z</updated>
+  <id>https://blog.yskz.dev/</id>
+  
+  <author>
+    <name>Y-M</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Does Hexo markdown escapes HTML special characters?</title>
+    <link href="https://blog.yskz.dev/2023/02/01/does-hexo-markdown-escapes-html-special-characters/"/>
+    <id>https://blog.yskz.dev/2023/02/01/does-hexo-markdown-escapes-html-special-characters/</id>
+    <published>2023-02-01T01:46:35.000Z</published>
+    <updated>2023-02-01T12:18:17.672Z</updated>
+    
+    <content type="html"><![CDATA[<p>In Hexo, A markdown-format post is converted to HTML.<br>HTML document needs to escape special two characters of ‘Less than’ and ‘Greater than’:<br>‘&lt;’</p><p>‘&gt;’</p><p>as:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;</span><br><span class="line">&amp;gt;</span><br></pre></td></tr></table></figure><p>&lt;br&gt;<br>is written as:<br><code>\&lt;br\&gt;</code></p><h2 id="Result-of-entities"><a href="#Result-of-entities" class="headerlink" title="Result of entities:"></a>Result of entities:</h2><ul><li>&lt; and &gt; must escape manually markdown writer himself &#x2F; herself.</li><li>Other HTML entities like aportrophe(&amp;apos;) are no need to escape.</li></ul><h3 id="Escaping-special-characters-‘L-T-’-lt-‘G-T-’-gt-and-‘back-slash’"><a href="#Escaping-special-characters-‘L-T-’-lt-‘G-T-’-gt-and-‘back-slash’" class="headerlink" title="Escaping special characters ‘L.T.’(&lt;), ‘G.T.’(&gt;) and ‘back-slash’(\)"></a>Escaping special characters ‘L.T.’(&lt;), ‘G.T.’(&gt;) and ‘back-slash’(<pre lang='en'>\</pre>)</h3><p> Three special characters:<br> [ <em>less-than</em> , <em>greater-than</em> , <em>back-slash</em> ]<br>[&lt;, &gt;, \]</p><p> need a <strong>backslash</strong> is inserted in front of each of them like:<br>[\&lt;, \&gt;, \\]</p><p> not to be treated as embedding HTML tags and an <strong>escape</strong> character.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;In Hexo, A markdown-format post is converted to HTML.&lt;br&gt;HTML document needs to escape special two characters of ‘Less than’ and ‘Greater</summary>
+      
+    
+    
+    
+    
+    <category term="Markdown" scheme="https://blog.yskz.dev/tags/markdown/"/>
+    
+    <category term="Entity" scheme="https://blog.yskz.dev/tags/entity/"/>
+    
+    <category term="HTML" scheme="https://blog.yskz.dev/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://blog.yskz.dev/2023/02/01/pug-out-post-in-pug/"/>
+    <id>https://blog.yskz.dev/2023/02/01/pug-out-post-in-pug/</id>
+    <published>2023-02-01T01:42:46.952Z</published>
+    <updated>2023-02-01T01:42:46.808Z</updated>
+    
+    <content type="html"><![CDATA[<!-- -----><!-- -----><h2>A trial to write a post in pug</h2><p>According to<a href="https://hexo.io/docs/writing.html">Hexo official document <i>writing</i></a>,  Hexo supports <i>pug</i> as a post-formatting language.</p><p>To use pug, change the extension of a post file as &lt;'.pug'&gt; from '.md'.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">
+&lt;!-- -----&gt;
+&lt;!-- -----&gt;
+&lt;h2&gt;A trial to write a post in pug&lt;/h2&gt;
+&lt;p&gt;According to&lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Hexo official do</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://blog.yskz.dev/2023/02/01/docs-post-in-pug/"/>
+    <id>https://blog.yskz.dev/2023/02/01/docs-post-in-pug/</id>
+    <published>2023-01-31T17:23:45.068Z</published>
+    <updated>2023-01-31T18:17:27.673Z</updated>
+    
+    <content type="html"><![CDATA[<!-- -----><!-- -----><h2>A trial to write a post in pug</h2><p>According to<a href="https://hexo.io/docs/writing.html">Hexo official document <i>writing</i></a>,  Hexo supports <i>pug</i> as a post-formatting language.</p><p>To use pug, change the extension of a post file as &lt;'.pug'&gt; from '.md'.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">
+&lt;!-- -----&gt;
+&lt;!-- -----&gt;
+&lt;h2&gt;A trial to write a post in pug&lt;/h2&gt;
+&lt;p&gt;According to&lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Hexo official do</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>form in About page</title>
+    <link href="https://blog.yskz.dev/2023/01/29/form-in-About-page/"/>
+    <id>https://blog.yskz.dev/2023/01/29/form-in-About-page/</id>
+    <published>2023-01-29T12:54:38.000Z</published>
+    <updated>2023-01-29T13:01:16.534Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Added-‘About’-page-which-contains-a-form-to-send-comments-to-this-blog-site-owner"><a href="#Added-‘About’-page-which-contains-a-form-to-send-comments-to-this-blog-site-owner" class="headerlink" title="Added ‘About’ page which contains a form to send comments to this blog site owner."></a>Added ‘About’ page which contains a form to send comments to this blog site owner.</h2><p>‘About” page location is: <code>source/about/index.md</code> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Added-‘About’-page-which-contains-a-form-to-send-comments-to-this-blog-site-owner&quot;&gt;&lt;a href=&quot;#Added-‘About’-page-which-contains-a-for</summary>
+      
+    
+    
+    
+    
+    <category term="comment-form" scheme="https://blog.yskz.dev/tags/comment-form/"/>
+    
+    <category term="about-page" scheme="https://blog.yskz.dev/tags/about-page/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Added post date after title</title>
+    <link href="https://blog.yskz.dev/2023/01/28/Added-post-date-after-title/"/>
+    <id>https://blog.yskz.dev/2023/01/28/Added-post-date-after-title/</id>
+    <published>2023-01-28T04:40:59.000Z</published>
+    <updated>2023-01-28T04:57:47.988Z</updated>
+    
+    <content type="html"><![CDATA[<p>Under <code>ym-start/layout/index.pug</code>,<br> block content &gt; main &gt; article.post &gt; a </p><p>Added an <strong>hgroup</strong> tag which contains:</p><ul><li><code>h2.title= post.title</code></li><li><code>time.date= post.date.format(config.date_format)</code></li></ul><p>And also, edited the stylesheet of <code>ym-start/sources/css/theme.css</code> to make title and date inline as:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">hgroup</span><span class="selector-class">.title-date</span> &gt; <span class="selector-tag">h2</span><span class="selector-class">.title</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Under &lt;code&gt;ym-start/layout/index.pug&lt;/code&gt;,&lt;br&gt; block content &amp;gt; main &amp;gt; article.post &amp;gt; a &lt;/p&gt;
+&lt;p&gt;Added an &lt;strong&gt;hgroup&lt;/stron</summary>
+      
+    
+    
+    
+    
+    <category term="config" scheme="https://blog.yskz.dev/tags/config/"/>
+    
+    <category term="CSS" scheme="https://blog.yskz.dev/tags/css/"/>
+    
+    <category term="Layout" scheme="https://blog.yskz.dev/tags/layout/"/>
+    
+    <category term="hgroup" scheme="https://blog.yskz.dev/tags/hgroup/"/>
+    
+    <category term="date.format" scheme="https://blog.yskz.dev/tags/date-format/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Set config to add date before title in file name</title>
+    <link href="https://blog.yskz.dev/2023/01/27/Set-config-to-add-date-before-title-in-file-name/"/>
+    <id>https://blog.yskz.dev/2023/01/27/Set-config-to-add-date-before-title-in-file-name/</id>
+    <published>2023-01-27T12:58:58.000Z</published>
+    <updated>2023-01-27T13:07:23.844Z</updated>
+    
+    <content type="html"><![CDATA[<p>Set the main confiuration file of Hexo <code>_config.yml</code> to include newly created date in its file name.</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">new_post_name:</span> <span class="string">:day-:month-:year-:title.md</span> <span class="comment"># File name of new posts</span></span><br></pre></td></tr></table></figure><p>Notify:</p><ul><li>This does not affect to create a new draft.</li><li>The configuration file must be the main [ just under Hexo directory ] not in theme configuration directories.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Set the main confiuration file of Hexo &lt;code&gt;_config.yml&lt;/code&gt; to include newly created date in its file name.&lt;/p&gt;
+&lt;figure class=&quot;highli</summary>
+      
+    
+    
+    
+    
+    <category term="new_post_name" scheme="https://blog.yskz.dev/tags/new-post-name/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://blog.yskz.dev/2023/01/26/post-in-pug/"/>
+    <id>https://blog.yskz.dev/2023/01/26/post-in-pug/</id>
+    <published>2023-01-26T14:37:51.156Z</published>
+    <updated>2023-02-01T01:42:46.808Z</updated>
+    
+    <content type="html"><![CDATA[<!-- -----><!-- -----><h2>A trial to write a post in pug</h2><p>According to<a href="https://hexo.io/docs/writing.html">Hexo official document <i>writing</i></a>,  Hexo supports <i>pug</i> as a post-formatting language.</p><p>To use pug, change the extension of a post file as &lt;'.pug'&gt; from '.md'.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!-- -----&gt;&lt;!-- -----&gt;&lt;h2&gt;A trial to write a post in pug&lt;/h2&gt;&lt;p&gt;According to&lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Hexo official docume</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CSS: Pad each [header,main,footer], Color brighter &#39;header&#39; background ; HTML design: lt/gt to larr/rarr; Class div.paginator for after CSS decoration</title>
+    <link href="https://blog.yskz.dev/2023/01/26/Style-header-main-footer-each-padding-header-color-brighter-Paginator-lt-gt-to-larr-rarr/"/>
+    <id>https://blog.yskz.dev/2023/01/26/Style-header-main-footer-each-padding-header-color-brighter-Paginator-lt-gt-to-larr-rarr/</id>
+    <published>2023-01-26T06:24:01.000Z</published>
+    <updated>2023-01-26T06:39:01.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>Whole padding as <code>body</code> element made bg-colored header&#x2F;footer L&#x2F;R-side character no margin from borders.<br>So, gave padding each header &#x2F; main &#x2F; footer elements.</p><p>Paginator:<br>Changed “&lt;&#x2F;&gt;” to “&amp;larr;&#x2F;&amp;rarr;” for better understandable.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Whole padding as &lt;code&gt;body&lt;/code&gt; element made bg-colored header&amp;#x2F;footer L&amp;#x2F;R-side character no margin from borders.&lt;br&gt;So, gave</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Installed &#39;Google Translate&#39; in index.html</title>
+    <link href="https://blog.yskz.dev/2023/01/25/Installed-Google-Translate-in-index-html/"/>
+    <id>https://blog.yskz.dev/2023/01/25/Installed-Google-Translate-in-index-html/</id>
+    <published>2023-01-25T09:11:01.000Z</published>
+    <updated>2023-01-25T09:16:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Changes:</p><ul><li><code>index.pug</code>: Added <code>div#google_translate_element</code> before <code>main</code></li><li><code>scripts.pug</code>: Added <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">script.</span><br><span class="line">    function googleTranslateElementInit() &#123;</span><br><span class="line">        new google.translate.TranslateElement(&#123;pageLanguage: &#x27;en&#x27;, layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL&#125;, &#x27;google_translate_element&#x27;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">script(src=&quot;https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&quot;)</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;index.pug&lt;/code&gt;: Added &lt;code&gt;div#google_translate_element&lt;/code&gt; before &lt;code&gt;main&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scr</summary>
+      
+    
+    
+    
+    
+    <category term="google-translate" scheme="https://blog.yskz.dev/tags/google-translate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Set &#39;blog&#39; submodule as GitHub Pages</title>
+    <link href="https://blog.yskz.dev/2023/01/25/Set-blog-submodule-as-GitHub-Pages/"/>
+    <id>https://blog.yskz.dev/2023/01/25/Set-blog-submodule-as-GitHub-Pages/</id>
+    <published>2023-01-24T16:49:10.000Z</published>
+    <updated>2023-01-24T16:54:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Since main branch of ‘blog’ submodule is ‘dev’, it matches to use GitHub Pages <em>‘Deploy from branch’</em>.<br>Now it is public in <em>Internet</em> as a web page at <a href="https://yasukazu.github.io/blog/">https://yasukazu.github.io/blog/</a>.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Since main branch of ‘blog’ submodule is ‘dev’, it matches to use GitHub Pages &lt;em&gt;‘Deploy from branch’&lt;/em&gt;.&lt;br&gt;Now it is public in &lt;em&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="GitHub-Pages" scheme="https://blog.yskz.dev/tags/github-pages/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Switched to my fork of &#39;hexo-theme-starter&#39;</title>
+    <link href="https://blog.yskz.dev/2023/01/24/Switched-to-hexo-theme-starter/"/>
+    <id>https://blog.yskz.dev/2023/01/24/Switched-to-hexo-theme-starter/</id>
+    <published>2023-01-24T06:30:44.000Z</published>
+    <updated>2023-01-24T07:08:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Felt to change my Hexo theme because current theme seemed too complicated to modify.</p><p><em>starter</em> theme looked simpler than current one.</p><p>At first, it had no style sheet.  So I tried to add a style sheet following the same way of the previous theme.</p><ul><li>Added <code>source/css/theme.css</code> file</li><li>Added a stylesheet as <code>href=url_for(&#39;css/theme.css&#39;)</code> in <code>layout/_include/head.pug</code></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Felt to change my Hexo theme because current theme seemed too complicated to modify.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;starter&lt;/em&gt; theme looked simpler than cu</summary>
+      
+    
+    
+    
+    
+    <category term="starter-theme" scheme="https://blog.yskz.dev/tags/starter-theme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>public_dir:docs;url:.../hexo-blog</title>
+    <link href="https://blog.yskz.dev/2023/01/22/public-dir-docs-url-hexo-blog/"/>
+    <id>https://blog.yskz.dev/2023/01/22/public-dir-docs-url-hexo-blog/</id>
+    <published>2023-01-22T13:38:17.000Z</published>
+    <updated>2023-01-22T14:06:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Edited-config-yml-を編集した"><a href="#Edited-config-yml-を編集した" class="headerlink" title="Edited _config.yml を編集した"></a>Edited <code>_config.yml</code> を編集した</h1><ul><li>Set <code>public_dir</code> name as <code>docs</code> to make it the root directory of GitHub Pages.</li><li>Set <code>url</code> to ends with <code>hexo-blog</code> : the same as GitHub repository name.</li></ul><h2 id="Countermeasure-to-preview-with-Live-Server"><a href="#Countermeasure-to-preview-with-Live-Server" class="headerlink" title="Countermeasure to preview with Live Server:"></a>Countermeasure to preview with Live Server:</h2><ul><li>Made a symbolic link as named <code>hexo-blog</code> to point <code>docs</code> directory.</li></ul><h2 id="Unable-to-add-docs-directory-recursively"><a href="#Unable-to-add-docs-directory-recursively" class="headerlink" title="Unable to add docs directory recursively"></a>Unable to add <code>docs</code> directory recursively</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Edited-config-yml-を編集した&quot;&gt;&lt;a href=&quot;#Edited-config-yml-を編集した&quot; class=&quot;headerlink&quot; title=&quot;Edited _config.yml を編集した&quot;&gt;&lt;/a&gt;Edited &lt;code&gt;_co</summary>
+      
+    
+    
+    
+    
+    <category term="GitHub, url, public_dir" scheme="https://blog.yskz.dev/tags/github-url-public-dir/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Installed _hexo-blog_ to my VPS</title>
+    <link href="https://blog.yskz.dev/2023/01/22/Installed-hexo-blog-to-my-VPS/"/>
+    <id>https://blog.yskz.dev/2023/01/22/Installed-hexo-blog-to-my-VPS/</id>
+    <published>2023-01-22T10:53:08.000Z</published>
+    <updated>2023-01-22T10:53:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2 id="title-Install-‘hexo-blog’-to-my-VPSdate-2023-01-22-17-48-53tags-VPS"><a href="#title-Install-‘hexo-blog’-to-my-VPSdate-2023-01-22-17-48-53tags-VPS" class="headerlink" title="title: Install ‘hexo-blog’ to my VPSdate: 2023-01-22 17:48:53tags: VPS"></a>title: Install ‘hexo-blog’ to my VPS<br>date: 2023-01-22 17:48:53<br>tags: VPS</h2><p>Hoped to login from VS Code to edit files and execute Hexo generate.<br>But the VPS terminal in VS Code freezed when installed VS Code plugins.<br>Why need for plugin: Live server to check rendered HTML.</p><p>Result: <em>Un-use-able</em> because the remote(VPS) cuts its connection when <em>‘Hexo generate’</em> starts.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;title-Install-‘hexo-blog’-to-my-VPSdate-2023-01-22-17-48-53tags-VPS&quot;&gt;&lt;a href=&quot;#title-Install-‘hexo-blog’-to-my-VPSdate-2023-01-</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Usage</title>
+    <link href="https://blog.yskz.dev/2023/01/22/hexo-usage/"/>
+    <id>https://blog.yskz.dev/2023/01/22/hexo-usage/</id>
+    <published>2023-01-22T02:34:01.584Z</published>
+    <updated>2023-01-22T02:34:01.584Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>fix timezone again</title>
+    <link href="https://blog.yskz.dev/2023/01/17/fix-timezone-again/"/>
+    <id>https://blog.yskz.dev/2023/01/17/fix-timezone-again/</id>
+    <published>2023-01-17T00:30:24.000Z</published>
+    <updated>2023-01-22T10:50:21.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日付がずれるのでtimezoneを修正してみる</title>
+    <link href="https://blog.yskz.dev/2023/01/17/try-to-fix-timezone-for-date-diff/"/>
+    <id>https://blog.yskz.dev/2023/01/17/try-to-fix-timezone-for-date-diff/</id>
+    <published>2023-01-16T23:54:52.000Z</published>
+    <updated>2023-01-22T10:50:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>_config.yml</code> の <code>timezone</code> を <em>Asia&#x2F;Tokyo</em> に変更してみる。<span lang="en">(‘Asia’ seems to need to start with a capital letter)</span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;_config.yml&lt;/code&gt; の &lt;code&gt;timezone&lt;/code&gt; を &lt;em&gt;Asia&amp;#x2F;Tokyo&lt;/em&gt; に変更してみる。&lt;span lang=&quot;en&quot;&gt;(‘Asia’ seems to need to start with a</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>rsyncの sshオプションで blogを zip圧縮した ファイルを　ブログ用サーバーに転送した</title>
+    <link href="https://blog.yskz.dev/2023/01/17/rsync-ssh-transfer-blog-zip-file/"/>
+    <id>https://blog.yskz.dev/2023/01/17/rsync-ssh-transfer-blog-zip-file/</id>
+    <published>2023-01-16T21:41:11.000Z</published>
+    <updated>2023-01-22T10:50:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Used-rsync-to-transfer-blog-HTML-files-to-www-yskz-xyz"><a href="#Used-rsync-to-transfer-blog-HTML-files-to-www-yskz-xyz" class="headerlink" title="Used rsync to transfer blog HTML files to www.yskz.xyz."></a>Used <em>rsync</em> to transfer blog HTML files to <code>www.yskz.xyz</code>.</h1><p>なぜかrsyncでディレクトリごと転送すると<code>index.html</code>ファイルが全て空すなわちサイズ0になってしまう。<br>Failed to transfer all HTML files in <em>blog</em> folder; ‘cause every HTML file size is zero.</p><p>やむなくblogディレクトリをアーカイブして一つのファイルにまとめて転送することで切り抜けた。<br>So, archived files into a zip format file.</p><p>Archive command is:<br><code>zip -r blog.zip blog</code></p><p>Extract command is:<br><code>unzip blog.zip -d blog</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Used-rsync-to-transfer-blog-HTML-files-to-www-yskz-xyz&quot;&gt;&lt;a href=&quot;#Used-rsync-to-transfer-blog-HTML-files-to-www-yskz-xyz&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo config url and public_dir and document-root settings</title>
+    <link href="https://blog.yskz.dev/2023/01/15/Hexo-config-somehow/"/>
+    <id>https://blog.yskz.dev/2023/01/15/Hexo-config-somehow/</id>
+    <published>2023-01-15T08:43:00.000Z</published>
+    <updated>2023-01-22T02:34:01.584Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2F-dir’"><a href="#Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2F-dir’" class="headerlink" title="Hexo assumes its generated website is accessed as ‘URL&#x2F;dir’"></a>Hexo assumes its generated website is accessed as ‘URL&#x2F;dir’</h1><h2 id="Configuration-file"><a href="#Configuration-file" class="headerlink" title="Configuration file"></a>Configuration file</h2><p>A typical usecase is <code>www.example.com/blog</code>.<br>So, about <code>_config.yml</code>, last path of <code>url</code> and <code>public_dir</code> must be the same. </p><h2 id="How-to-set-the-hexo-generated-website-with-‘document-root’-in-a-VPS"><a href="#How-to-set-the-hexo-generated-website-with-‘document-root’-in-a-VPS" class="headerlink" title="How to set the hexo-generated website with ‘document root’ in a VPS"></a>How to set the hexo-generated website with ‘document root’ in a VPS</h2><ol><li>In the same directory where document root exists, clone the hexo website repository.(repository name as <code>hexo-blog</code>)</li><li>Make a symbolic link of <code>hexo-blog/blog</code> into the document root as <code>blog</code></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[DocumentRoot]$ <span class="built_in">ln</span> -s hexo-blog/blog /blog</span><br></pre></td></tr></table></figure><ol start="3"><li>Make a symbolic link of <code>hexo-blog/blog/index.html</code> into the document root as <code>index.html</code></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2F-dir’&quot;&gt;&lt;a href=&quot;#Hexo-assumes-its-generated-website-is-accessed-as-‘URL-x2</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Installed &#39;generator-hexo-theme&#39;</title>
+    <link href="https://blog.yskz.dev/2023/01/13/Installed-generator-hexo-theme-1/"/>
+    <id>https://blog.yskz.dev/2023/01/13/Installed-generator-hexo-theme-1/</id>
+    <published>2023-01-12T16:43:21.000Z</published>
+    <updated>2023-01-22T02:34:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Changed-to-a-simple-blog-template"><a href="#Changed-to-a-simple-blog-template" class="headerlink" title="Changed to a simple blog template"></a>Changed to a simple blog template</h1><h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p><a href="https://github.com/Yasukazu/blog/wiki/Hexo-Page-Generator/_edit">https://github.com/Yasukazu/blog/wiki/Hexo-Page-Generator/_edit</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Changed-to-a-simple-blog-template&quot;&gt;&lt;a href=&quot;#Changed-to-a-simple-blog-template&quot; class=&quot;headerlink&quot; title=&quot;Changed to a simple blog t</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Installed &#39;generator-hexo-theme&#39;</title>
+    <link href="https://blog.yskz.dev/2023/01/13/Installed-generator-hexo-theme/"/>
+    <id>https://blog.yskz.dev/2023/01/13/Installed-generator-hexo-theme/</id>
+    <published>2023-01-12T16:42:00.000Z</published>
+    <updated>2023-01-22T10:50:21.000Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
