@@ -34,22 +34,12 @@
             </header>
             <hr>
             <div class="content">
-                <p>In Hexo, A markdown-format post is converted to HTML.<br>HTML document needs to escape special two characters of ‘Less than’ and ‘Greater than’:<br>‘&lt;’</p>
-                <p>‘&gt;’</p>
-                <p>as:</p>
-                <figure class="highlight plaintext">
-                    <table>
-                        <tr>
-                            <td class="gutter">
-                                <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
-                            </td>
-                            <td class="code">
-                                <pre><span class="line">&amp;lt;</span><br><span class="line">&amp;gt;</span><br></pre>
-                            </td>
-                        </tr>
-                    </table>
-                </figure>
-                <p>&lt;br&gt;<br>is written as:<br><code>\&lt;br\&gt;</code></p>
+                <p>In Hexo, A markdown-format post is converted to HTML.<br>HTML document needs to escape special two characters of ‘Less than’ and ‘Greater than’:</p>
+                <p>&lt; &gt; &amp;bsol;</p>
+                <ol>
+                    <li>HTML entity format: <code>&amp;lt;</code> <code>&amp;gt;</code> <code>&amp;bsol;</code></li>
+                    <li>Leading escape by backslash: \&lt; \&gt; \\</li>
+                </ol>
                 <h2 id="Result-of-entities"><a href="#Result-of-entities" class="headerlink" title="Result of entities:"></a>Result of entities:</h2>
                 <ul>
                     <li>&lt; and &gt; must escape manually markdown writer himself &#x2F; herself.</li>
