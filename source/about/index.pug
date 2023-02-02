@@ -1,0 +1,19 @@
+h1 This blog site is about
+p --because of not enough time to organize each posts.
+p If you have something to tell me, please notify me with the following form(powered by Hyperform: #[a(href="https://hyperform.jp")]:
+
+fieldset.form
+  legend Please fill in following items then press &apos;Submit&apos; button.
+  form.send-message(method="post", action="https://hyperform.jp/api/CdLHS21L")
+    .form-part
+      label.name(for="name") Your name
+      input#name(type="text", name="name", placeholder="family name, first name", required)
+    .form-part
+      label.e-mail(for="email") Your e-mail address
+      input#email(type="email", name="email", placeholder="example@example.com", required)
+    .form-part.col
+      label.comment Comment about this blog
+      textarea(name="comment", required)
+    .form-part.submit
+      button.submit(type="submit") Submit
+      p Press this button, please &rarr;
