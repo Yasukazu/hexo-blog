@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo trial
+title: Hexo development
 subtitle: 'Webpage technical Blog'
-description: 'A web log to use Hexo static site generator'
-keywords: JavaScript, HTML, CSS
+description: 'A web log to study better ways to utilize Hexo static site generator'
+keywords: JavaScript, HTML, CSS, Hexo, SCSS, HTML-template
 author: Y-M
 language: en
 timezone: Asia/Tokyo
