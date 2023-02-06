@@ -1,4 +1,27 @@
 {
-    "compile-hero.disable-compile-files-on-did-save-code": true,
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+/*    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "compile-hero.stylus-output-directory": "./css" */
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/css"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "~/min.css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/**/node_modules/**",
+        "/.vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    //autoprefix, will auto add perfix like -webkit- -moz-..
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
 }
