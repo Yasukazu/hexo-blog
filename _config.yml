@@ -100,7 +100,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: ym-brewski
-# theme: ym-noise
+theme: ym-start
 # theme: ym-freemind
 #theme: landscape
 #theme: buttefly
