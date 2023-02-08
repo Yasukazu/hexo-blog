@@ -11,3 +11,12 @@
 	path = blog
 	url = git@github.com:Yasukazu/blog.git
 
+[submodule "themes/ym-freemind"]
+	path = themes/ym-freemind
+	url = git@github.com:Yasukazu/ym-freemind.git
+[submodule "themes/butterfly"]
+	path = themes/butterfly
+	url = git@github.com:jerryc127/hexo-theme-butterfly.git
+[submodule "themes/ym-noise"]
+	path = themes/ym-noise
+	url = git@github.com:Yasukazu/ym-noise.git

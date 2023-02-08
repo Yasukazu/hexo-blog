@@ -100,8 +100,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: ym-brewski
-theme: ym-start
+# theme: ym-noise
+# theme: ym-freemind
 #theme: landscape
+#theme: buttefly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
