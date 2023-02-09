@@ -1,6 +1,3 @@
-[submodule "themes/ym-brewski"]
-	path = themes/ym-brewski
-	url = https://github.com/Yasukazu/ym-brewski.git
 [submodule "source/_posts"]
 	path = source/_posts
 	url = https://github.com/Yasukazu/_posts.git
@@ -11,9 +8,6 @@
 	path = blog
 	url = git@github.com:Yasukazu/blog.git
 
-[submodule "themes/ym-freemind"]
-	path = themes/ym-freemind
-	url = git@github.com:Yasukazu/ym-freemind.git
 [submodule "themes/ym-noise"]
 	path = themes/ym-noise
 	url = git@github.com:Yasukazu/ym-noise.git

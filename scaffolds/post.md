@@ -4,3 +4,5 @@ date: {{ date }}
 tags:
 categories: {{ categories }}
 ---
+
+<!-- more -->
