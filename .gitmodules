@@ -11,3 +11,9 @@
 [submodule "themes/ym-noise"]
 	path = themes/ym-noise
 	url = git@github.com:Yasukazu/ym-noise.git
+[submodule "themes/ym-butterfly"]
+	path = themes/ym-butterfly
+	url = git@github.com:Yasukazu/ym-butterfly.git
+[submodule "themes/ym-next"]
+	path = themes/ym-next
+	url = git@github.com:Yasukazu/ym-next.git
