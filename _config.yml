@@ -118,4 +118,4 @@ search:
   path: search.xml
   field: post
   content: true
-  template: ./search.xml
+  format: html
