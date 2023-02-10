@@ -114,3 +114,8 @@ deploy:
   message: deploy from Hexo
 
 # Custom index page
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
