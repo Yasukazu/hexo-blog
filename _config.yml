@@ -103,7 +103,9 @@ ignore:
 theme: ym-start
 # theme: ym-freemind
 #theme: landscape
-#theme: buttefly
+#theme: ym-buttefly
+#theme: ym-next
+#theme: ym-noise
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
