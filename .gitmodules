@@ -8,12 +8,6 @@
 	path = blog
 	url = git@github.com:Yasukazu/blog.git
 
-[submodule "themes/ym-noise"]
-	path = themes/ym-noise
-	url = git@github.com:Yasukazu/ym-noise.git
-[submodule "themes/ym-butterfly"]
-	path = themes/ym-butterfly
-	url = git@github.com:Yasukazu/ym-butterfly.git
 [submodule "plugins/ym-hexo-search-result"]
 	path = plugins/ym-hexo-search-result
 	url = git@github.com:Yasukazu/ym-hexo-search-result.git
