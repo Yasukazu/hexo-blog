@@ -1,0 +1,7 @@
+form#search(onsubmit="return search();")
+  label(for="search-text") Enter search text:
+  input#search-text(type="text" name="search-text")
+  input.submit(type="submit")
+template#plugin-search-result
+//- /search/?search=
+script(type="text/javascript" src="/js/search.js")

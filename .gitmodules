@@ -14,6 +14,6 @@
 [submodule "themes/ym-butterfly"]
 	path = themes/ym-butterfly
 	url = git@github.com:Yasukazu/ym-butterfly.git
-[submodule "themes/ym-next"]
-	path = themes/ym-next
-	url = git@github.com:Yasukazu/ym-next.git
+[submodule "plugins/ym-hexo-search-result"]
+	path = plugins/ym-hexo-search-result
+	url = git@github.com:Yasukazu/ym-hexo-search-result.git
