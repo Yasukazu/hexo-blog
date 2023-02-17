@@ -42,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 1
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -111,7 +111,7 @@ theme: ym-start
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:Yasukazu/hexo-blog.git
+  repo: git@github.com:yasukazu/hexo-blog.git
   branch: dev
   message: deploy from Hexo
 
