@@ -121,3 +121,8 @@ search:
   field: post
   content: true
   format: html
+
+# Marked
+marked:
+  prependRoot: true
+  postAsset: true
