@@ -32,7 +32,8 @@
     "run": "^1.4.0",
     "sanitize.css": "^13.0.0",
     "sanitize.scss": "^1.0.0",
-    "xregexp": "^5.1.1"
+    "xregexp": "^5.1.1",
+    "yo": "^4.3.1"
   },
   "devDependencies": {
     "@types/xregexp": "^4.4.0",

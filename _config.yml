@@ -8,7 +8,7 @@ subtitle: 'Webpage technical Blog'
 description: 'A web log to study better ways to utilize Hexo static site generator'
 keywords: JavaScript, HTML, CSS, Hexo, SCSS, HTML-template
 author: Y-M
-language: en
+language: ja
 timezone: Asia/Tokyo
 
 # URL
@@ -101,12 +101,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # theme: ym-brewski
 # theme: ym-ingenuous
-theme: ym-start
+# theme: ym-start
 # theme: ym-freemind
 #theme: landscape
 #theme: ym-buttefly
 #theme: ym-next
 #theme: ym-noise
+#theme: med-ejs
+theme: th
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -119,7 +121,7 @@ deploy:
 # Custom index page
 search:
   path: search.xml
-  field: post
+  field: all
   content: true
   format: html
 
