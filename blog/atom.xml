@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo development</title>
+  
+  <subtitle>Webpage technical Blog</subtitle>
+  <link href="https://blog.yskz.dev/atom.xml" rel="self"/>
+  
+  <link href="https://blog.yskz.dev/"/>
+  <updated>2023-03-25T09:55:31.492Z</updated>
+  <id>https://blog.yskz.dev/</id>
+  
+  <author>
+    <name>Y-M</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Commentbox commenting system</title>
+    <link href="https://blog.yskz.dev/2023/03/25/commentbox-commenting-system/"/>
+    <id>https://blog.yskz.dev/2023/03/25/commentbox-commenting-system/</id>
+    <published>2023-03-25T08:15:15.000Z</published>
+    <updated>2023-03-25T09:55:31.492Z</updated>
+    
+    <content type="html"><![CDATA[<p>Introduced a commenting system using CommentBox</p><span id="more"></span><p>Somehow CommentBox is easy to build in.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Introduced a commenting system using CommentBox&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="HexoBlog" scheme="https://blog.yskz.dev/categories/hexoblog/"/>
+    
+    
+    <category term="commentingSystem" scheme="https://blog.yskz.dev/tags/commentingsystem/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Disqus comment</title>
+    <link href="https://blog.yskz.dev/2023/03/24/disqus-comment/"/>
+    <id>https://blog.yskz.dev/2023/03/24/disqus-comment/</id>
+    <published>2023-03-24T09:23:36.000Z</published>
+    <updated>2023-03-24T10:45:16.651Z</updated>
+    
+    <content type="html"><![CDATA[<p>Tried to have a commenting system.</p><span id="more"></span><h2 id="Disqus-comment-system">Disqus comment system:</h2><ul><li>Changed: <code>(d.head || d.body)</code> to <code>(d.body)</code></li><li>Disqus in article(post)</li></ul><hr><div id="disqus_thread"></div><script>            const page_path = "2023/03/24/disqus-comment/";            const page_url = "https://blog.yskz.dev/" + page_path ";            var disqus_config = function ()            {                this.page.url = page_url;                this.page.identifier = '/' + page_path;            };            (function ()            {                var d = document,                    s = d.createElement('script');                s.src = 'https://yasukazu-1.disqus.com/embed.js';                s.setAttribute('data-timestamp', +new Date());                (d.body).appendChild(s);            })();    noscript.            - Please enable JavaScript to view the #[a(href="https://disqus.com/?ref_noscript",rel="nofollow") comments powered by Disqus.]</script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Tried to have a commenting system.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.yskz.dev/categories/hexo/"/>
+    
+    
+    <category term="comment" scheme="https://blog.yskz.dev/tags/comment/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dwarf tomato seeding</title>
+    <link href="https://blog.yskz.dev/2023/03/19/dwarf-tomato-seeding/"/>
+    <id>https://blog.yskz.dev/2023/03/19/dwarf-tomato-seeding/</id>
+    <published>2023-03-19T02:39:22.000Z</published>
+    <updated>2023-03-19T02:51:37.788Z</updated>
+    
+    <content type="html"><![CDATA[<p>Seeded Dwarf Tomato in 2 small pulp 3x4 celltrays.</p><span id="more"></span><p>Included 27 seeds in 0.5ml.</p><p><a data-flickr-embed="true" href="https://www.flickr.com/gp/90143794@N08/6G46GY3FS9" title="Dwarf tomato"><img src="https://live.staticflickr.com/65535/52756275306_887d358c89_z.jpg" width="480" height="640" alt="Dwarf tomato"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Seeded Dwarf Tomato in 2 small pulp 3x4 celltrays.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="planting" scheme="https://blog.yskz.dev/categories/planting/"/>
+    
+    
+    <category term="seedling" scheme="https://blog.yskz.dev/tags/seedling/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Plant seed incubation / germination</title>
+    <link href="https://blog.yskz.dev/2023/03/15/plant-seed-incubation/"/>
+    <id>https://blog.yskz.dev/2023/03/15/plant-seed-incubation/</id>
+    <published>2023-03-15T13:52:37.000Z</published>
+    <updated>2023-03-16T05:59:39.795Z</updated>
+    
+    <content type="html"><![CDATA[<p>Plant seeds need not excessive water.</p><span id="more"></span><p>Generally, plant seeds should not dippend in water before seeding, or they might be suffocated, cause weak prolonged growth or get rotten.</p><p>So, plant incubator also better not be excessive watered.</p><p><a data-flickr-embed="true" href="https://www.flickr.com/photos/90143794@N08/52750944938/in/album-72177720306747490/lightbox/" title="Plant germination"><img src="https://live.staticflickr.com/65535/52750944938_68634134b1_z.jpg" width="640" height="480" alt="Plant germination"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" href="https://www.flickr.com/photos/90143794@N08/52750863525/in/album-72177720306747490/" title="Plant germination"><img src="https://live.staticflickr.com/65535/52750863525_5e9efaf1dc_z.jpg" width="640" height="480" alt="Plant germination"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" href="https://www.flickr.com/photos/90143794@N08/52750693444/in/album-72177720306747490/" title="Plant germination"><img src="https://live.staticflickr.com/65535/52750693444_a7cf882401_z.jpg" width="640" height="480" alt="Plant germination"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Plant seeds need not excessive water.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>botanical trial</title>
+    <link href="https://blog.yskz.dev/2023/03/08/botanical-trial/"/>
+    <id>https://blog.yskz.dev/2023/03/08/botanical-trial/</id>
+    <published>2023-03-07T22:05:09.000Z</published>
+    <updated>2023-03-08T02:11:11.613Z</updated>
+    
+    <content type="html"><![CDATA[<p>Moved seedlings to planting pots.</p><span id="more"></span><p>Pulp planting pots are easy to break when wet.<br><img src="pulp-pot.JPG" alt="pulp pots"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Moved seedlings to planting pots.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Agri" scheme="https://blog.yskz.dev/categories/agri/"/>
+    
+    
+    <category term="seedling" scheme="https://blog.yskz.dev/tags/seedling/"/>
+    
+    <category term="turnip" scheme="https://blog.yskz.dev/tags/turnip/"/>
+    
+    <category term="bok-choy" scheme="https://blog.yskz.dev/tags/bok-choy/"/>
+    
+    <category term="salad-green" scheme="https://blog.yskz.dev/tags/salad-green/"/>
+    
+    <category term="carrot" scheme="https://blog.yskz.dev/tags/carrot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Subscribed boxy-svg.com for SVG drawing online</title>
+    <link href="https://blog.yskz.dev/2023/02/18/subscribed-boxy-svg-com-for-svg-drawing-online/"/>
+    <id>https://blog.yskz.dev/2023/02/18/subscribed-boxy-svg-com-for-svg-drawing-online/</id>
+    <published>2023-02-18T09:10:34.000Z</published>
+    <updated>2023-02-18T09:46:58.784Z</updated>
+    
+    <content type="html"><![CDATA[<p>Boxy SVG is an online SVG editor providing subscriptions from about 1,500 JPY / year</p><span id="more"></span><p>I could not use a SVG editor plugin for VS Code, then switched to use an online service.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Boxy SVG is an online SVG editor providing subscriptions from about 1,500 JPY / year&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.yskz.dev/categories/hexo/"/>
+    
+    
+    <category term="svg-editor" scheme="https://blog.yskz.dev/tags/svg-editor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Japanese yam and soybean planting visit</title>
+    <link href="https://blog.yskz.dev/2023/02/18/japanese-yam-and-soybean-planting-visit/"/>
+    <id>https://blog.yskz.dev/2023/02/18/japanese-yam-and-soybean-planting-visit/</id>
+    <published>2023-02-18T08:43:11.000Z</published>
+    <updated>2023-02-18T23:41:15.852Z</updated>
+    
+    <content type="html"><![CDATA[<p>We attended an inspection of farmers planting Japanese mountain yam and young soybean.</p><span id="more"></span><ol><li>Japanese mountain yam</li></ol><ul><li>Start to grow virus-free fetus</li><li>With not-patented method anyone can plant with member fee(JPY 5,000 / year)</li><li>Need to fence against wild deer, serow and boar.</li><li>Hard to plant on old wet rice farm</li></ul><ol start="2"><li>Young soybean in greenhouse</li></ol><ul><li>4-time crop / year in greenhouse with active(fuel consuming) heater</li><li>3-time crop in greenhouse without heater</li><li>Need to maintain water not to grow too large nor too small</li><li>Hard after-harvest process: fast packaging needs long-term job experience</li><li>Very hot in summer season: over 40 degrees in greenhouse</li></ul><h3 id="figure-of-Japanese-mountain-yam-planting">figure of Japanese mountain yam planting</h3><ul><li>Markdown image</li></ul><pre class="language-markdown" data-language="markdown"><code class="language-markdown">![](jinenjo-saibai.svg)</code></pre><ul><li>HTML image</li></ul><pre class="language-HTML" data-language="HTML"><code class="language-HTML">&lt;img src&#x3D;&quot;&#123;% asset_path jinenjo-saibai.svg %&#125;&quot; title&#x3D;&quot;Japanese mountain yam planting&quot; &#x2F;&gt;</code></pre><ul><li>Nunjuks(jinja2) image</li></ul><pre class="language-njk" data-language="njk"><code class="language-njk">&#123;% asset_img jinenjo-saibai.svg &quot;Japanese mountain yam planting&quot; %&#125;</code></pre><img src="/2023/02/18/japanese-yam-and-soybean-planting-visit/jinenjo-saibai.svg" class="" title="Japanese mountain yam planting">]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;We attended an inspection of farmers planting Japanese mountain yam and young soybean.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Agri" scheme="https://blog.yskz.dev/categories/agri/"/>
+    
+    
+    <category term="Japanese-moutain-yam" scheme="https://blog.yskz.dev/tags/japanese-moutain-yam/"/>
+    
+    <category term="soybean" scheme="https://blog.yskz.dev/tags/soybean/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ignore diacritical marks in search</title>
+    <link href="https://blog.yskz.dev/2023/02/17/ignore-diacritical-marks-in-search/"/>
+    <id>https://blog.yskz.dev/2023/02/17/ignore-diacritical-marks-in-search/</id>
+    <published>2023-02-17T07:43:33.000Z</published>
+    <updated>2023-02-17T19:36:32.300Z</updated>
+    
+    <content type="html"><![CDATA[<p>Search ignores marks like tilde(like letter ‘n’ with upper wave in <em>España</em>).</p><span id="more"></span><p>Japanese dakuten(だくてん) and handakuten(はんだくてん) are kind of diacritical mark.</p><p>Search also ignores cases aka small or capital letters.</p><ol><li>This Hexo plugin code is:</li></ol><pre class="language-nunjuks" data-language="nunjuks"><code class="language-nunjuks">&#123;% asset_img search-box.svg Search box %&#125;</code></pre><p>To show below image:</p><img src="/2023/02/17/ignore-diacritical-marks-in-search/search-box.svg" class="" title="Search box"><ol start="2"><li>(1.) is an image short code of:</li></ol><pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>&#123;% asset_path search-box.svg %&#125;<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Search box<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre><img src="/2023/02/17/ignore-diacritical-marks-in-search/search-box.svg" alt="Search box"><ol start="3"><li>Marked _config.html</li></ol><pre class="language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">post_asset_folder</span><span class="token punctuation">:</span> <span class="token boolean important">true</span><span class="token key atrule">marked</span><span class="token punctuation">:</span>  <span class="token key atrule">prependRoot</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>  <span class="token key atrule">postAsset</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></code></pre><p>Enables markdown:</p><pre class="language-markdown" data-language="markdown"><code class="language-markdown">![](search-box.svg)</code></pre><p><img src="search-box.svg" alt=""></p><ol start="4"><li>Embed an image in the document</li></ol><svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">  <rect x="65.496" y="67.168" width="185.619" height="255.853" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>  <rect x="74.972" y="118.45" width="98.105" height="25.084" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="220.178" cy="130.156" rx="18.116" ry="10.033"/>  <rect x="93.924" y="170.847" width="124.303" height="57.971" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>  <rect x="93.367" y="237.18" width="124.303" height="57.971" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.5px;" x="96.154" y="135.73">Input</text>  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.5px;" x="182.553" y="111.204">Submit</text>  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.5px;" x="119.565" y="194.816">Reslut 1</text>  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.5px;" x="119.008" y="259.476">Result 2</text>  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19.5px;" x="69.955" y="40.412">Search box</text></svg>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Search ignores marks like tilde(like letter ‘n’ with upper wave in &lt;em&gt;España&lt;/em&gt;).&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.yskz.dev/categories/hexo/"/>
+    
+    
+    <category term="ym-start" scheme="https://blog.yskz.dev/tags/ym-start/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Enabled post_asset_folder for _config.yml</title>
+    <link href="https://blog.yskz.dev/2023/02/17/enabled-post-asset-folder-for-config-yml/"/>
+    <id>https://blog.yskz.dev/2023/02/17/enabled-post-asset-folder-for-config-yml/</id>
+    <published>2023-02-16T22:39:40.000Z</published>
+    <updated>2023-02-17T19:48:58.634Z</updated>
+    
+    <content type="html"><![CDATA[<p>If <code>post_asset_folder</code> is true,  the same name directory of the created post file name without extension.</p><span id="more"></span><p>In post document, the asset folder and file can get with:</p><pre class="language-njk" data-language="njk"><code class="language-njk">&#123;% asset_path filename %&#125;</code></pre><h2 id="How-to-link-to-another-post">How to link to another post</h2><ul><li>Use <em>post_link</em> tag plugin</li></ul><pre class="language-njk" data-language="njk"><code class="language-njk">&#123;% post_link _filename-without-extension_ _title_ [escape escape: true(default)&#x2F;false] %&#125;</code></pre><a href="/2023/02/17/ignore-diacritical-marks-in-search/" title="Ignore diacritical marks in search">How to embed images in a post</a>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;If &lt;code&gt;post_asset_folder&lt;/code&gt; is true,  the same name directory of the created post file name without extension.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.yskz.dev/categories/hexo/"/>
+    
+    
+    <category term="embed" scheme="https://blog.yskz.dev/tags/embed/"/>
+    
+    <category term="post" scheme="https://blog.yskz.dev/tags/post/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Added date in search result. Hexo generate won&#39;t update javascript files.</title>
+    <link href="https://blog.yskz.dev/2023/02/15/added-date-in-search-result-hexo-generate-won-t-update-javascript-files/"/>
+    <id>https://blog.yskz.dev/2023/02/15/added-date-in-search-result-hexo-generate-won-t-update-javascript-files/</id>
+    <published>2023-02-15T06:20:32.000Z</published>
+    <updated>2023-02-15T06:22:35.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>Improved search result.  Hexo seems has a bug of no replacement of javascript files.</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Improved search result.  Hexo seems has a bug of no replacement of javascript files.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.yskz.dev/categories/hexo/"/>
+    
+    
+    <category term="search" scheme="https://blog.yskz.dev/tags/search/"/>
+    
+    <category term="theme" scheme="https://blog.yskz.dev/tags/theme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>In-site search Hexo server success</title>
+    <link href="https://blog.yskz.dev/2023/02/14/in-site-search-hexo-server-success/"/>
+    <id>https://blog.yskz.dev/2023/02/14/in-site-search-hexo-server-success/</id>
+    <published>2023-02-14T01:48:46.000Z</published>
+    <updated>2023-02-14T02:28:05.283Z</updated>
+    
+    <content type="html"><![CDATA[<p>In-sit search function works only in Hexo server mode.</p><span id="more"></span><h2 id="Misunderstandings">Misunderstandings:</h2><ul><li>HTML <strong>form</strong> tag redirects to <code>action=</code> URL, if no <code>action</code> property, redirects document root (‘/’). Countermeasure is <code>Event.preventDefault()</code> in called function.</li><li>HTML <strong>template</strong> tag is made to use from JavaScript.  In js code, usually the template is used after cloning as: <code>document.importNode(template.content, true)</code>. *(<code>true</code> means recursive clone aka: including all its descendants) In other words, <strong>template</strong> is a pre-defined format strategy of <code>document.createDocumentFragment()</code> to insert a new element tree in an HTML document.</li></ul><h2 id="Useful-teaching-webpage">Useful teaching webpage:</h2><p><a href="https://catnose.me/learning/html/template">https://catnose.me/learning/html/template</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;In-sit search function works only in Hexo server mode.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.yskz.dev/categories/hexo/"/>
+    
+    
+    <category term="search" scheme="https://blog.yskz.dev/tags/search/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>In-site search half success</title>
+    <link href="https://blog.yskz.dev/2023/02/11/in-site-search-half-success/"/>
+    <id>https://blog.yskz.dev/2023/02/11/in-site-search-half-success/</id>
+    <published>2023-02-10T16:22:15.000Z</published>
+    <updated>2023-02-11T12:23:38.706Z</updated>
+    
+    <content type="html"><![CDATA[<p>It only works when input as <code>URL/search/?search=...</code></p><span id="more"></span><p>Search box picks up all entries..</p><pre class="language-JavaScript" data-language="JavaScript"><code class="language-JavaScript">function getSearchQueryFromUrlParams () &#123;  const params &#x3D; window.location.search.substring(1).split(&#39;&amp;&#39;);  const search &#x3D; params.filter(param &#x3D;&gt; param.search(&#x2F;$search&#x3D;&#x2F;));  return search.length &gt; 0 ? search[0].split(&#39;&#x3D;&#39;)[1] : null;&#125;</code></pre><p><var>getSearchQueryFromUrlParams</var> returns <code>null</code> from search input text window.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;It only works when input as &lt;code&gt;URL/search/?search=...&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Applied a website e-mail supporter job</title>
+    <link href="https://blog.yskz.dev/2023/02/09/applied-a-website-e-mail-supporter-job/"/>
+    <id>https://blog.yskz.dev/2023/02/09/applied-a-website-e-mail-supporter-job/</id>
+    <published>2023-02-09T05:26:40.000Z</published>
+    <updated>2023-02-09T05:37:19.631Z</updated>
+    
+    <content type="html"><![CDATA[<p>Applied a job to reply customers in e-mail and to maintain website selling items.</p><span id="more"></span><p>It is a user-to-user sell-and-buy website.<br>Requires to work full time(8-hours a day) and also Saturdays, Sundays and holidays on work.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Applied a job to reply customers in e-mail and to maintain website selling items.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="job" scheme="https://blog.yskz.dev/categories/job/"/>
+    
+    
+    <category term="e-mail" scheme="https://blog.yskz.dev/tags/e-mail/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Added &#39;categories&#39; in scaffolds/post.md</title>
+    <link href="https://blog.yskz.dev/2023/02/06/added-categories-in-scaffolds-post-md/"/>
+    <id>https://blog.yskz.dev/2023/02/06/added-categories-in-scaffolds-post-md/</id>
+    <published>2023-02-06T10:26:46.000Z</published>
+    <updated>2023-02-09T01:58:20.895Z</updated>
+    
+    <content type="html"><![CDATA[<p>Added a <em>categories</em> line in <em>front matter</em>.</p><span id="more"></span><p>Inside <em>front matter</em>, added a line as:</p><pre class="language-njk" data-language="njk"><code class="language-njk">categories: &#123;&#123; categories &#125;&#125;</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Added a &lt;em&gt;categories&lt;/em&gt; line in &lt;em&gt;front matter&lt;/em&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.yskz.dev/categories/hexo/"/>
+    
+    
+    <category term="category" scheme="https://blog.yskz.dev/tags/category/"/>
+    
+    <category term="scaffold" scheme="https://blog.yskz.dev/tags/scaffold/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Visited Japan Agri. Co-op to apply a job</title>
+    <link href="https://blog.yskz.dev/2023/02/06/agri-coop-job/"/>
+    <id>https://blog.yskz.dev/2023/02/06/agri-coop-job/</id>
+    <published>2023-02-06T10:26:46.000Z</published>
+    <updated>2023-02-09T01:55:01.310Z</updated>
+    
+    <content type="html"><![CDATA[<p>Visited Agri Coop to apply a part-time job</p><span id="more"></span><p>The job is to harvest strawberry fruits.</p><h3 id="How-to-write-an-excerpt-in-post"><a href="#How-to-write-an-excerpt-in-post" class="headerlink" title="How to write an excerpt in post"></a>How to write an excerpt in post</h3><p>Until the HTML comment as ‘more’ like:</p><pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token comment">&lt;!-- more --></span></code></pre><p>makes the excerpt of the post.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Visited Agri Coop to apply a part-time job&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="job" scheme="https://blog.yskz.dev/categories/job/"/>
+    
+    
+    <category term="strawberry" scheme="https://blog.yskz.dev/tags/strawberry/"/>
+    
+    <category term="harvest" scheme="https://blog.yskz.dev/tags/harvest/"/>
+    
+    <category term="excerpt" scheme="https://blog.yskz.dev/tags/excerpt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Theme style SCSS again</title>
+    <link href="https://blog.yskz.dev/2023/02/05/theme-style-scss-again/"/>
+    <id>https://blog.yskz.dev/2023/02/05/theme-style-scss-again/</id>
+    <published>2023-02-04T23:46:20.000Z</published>
+    <updated>2023-02-06T00:10:30.616Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is <em>Post Excerpt</em>: Embedding renderer directive in comment (TURBO_PASCAL-like)</p><span id="more"></span><p>Using <em>Live Sass</em>, a plugin of VS Code, retried to use SCSS as a style sheet.</p><details>    <summary>settings.json</summary> <code>    "liveSassCompile.settings.formats": [        &#123;            "format": "expanded",            "extensionName": ".css",            "savePath": "~/css"        &#125;,        &#123;            "extensionName": ".min.css",            "format": "compressed",            "savePath": "~/min.css"        &#125;    ],    "liveSassCompile.settings.excludeList": [        "/**/node_modules/**",        "/.vscode/**"    ],    "liveSassCompile.settings.generateMap": false,    //autoprefix, will auto add perfix like -webkit- -moz-..    "liveSassCompile.settings.autoprefix": [        "> 1%",        "last 2 versions"    ]</code></details><h2 id="post-link-tag-plugin-requires-post-filename-contains-no-date"><a href="#post-link-tag-plugin-requires-post-filename-contains-no-date" class="headerlink" title="post_link tag plugin requires post filename contains no date"></a><em>post_link</em> tag plugin requires post filename contains no date</h2><a href="/2023/02/04/added-archives-in-menu/" title="Added Archives in menu">Added Archives in menu</a><pre class="language-njk" data-language="njk"><code class="language-njk">&#123;% post_link added-archives-in-menu %&#125;</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;This is &lt;em&gt;Post Excerpt&lt;/em&gt;: Embedding renderer directive in comment (TURBO_PASCAL-like)&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="theme.css" scheme="https://blog.yskz.dev/tags/theme-css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Added Archives in menu</title>
+    <link href="https://blog.yskz.dev/2023/02/04/added-archives-in-menu/"/>
+    <id>https://blog.yskz.dev/2023/02/04/added-archives-in-menu/</id>
+    <published>2023-02-04T11:17:49.000Z</published>
+    <updated>2023-02-05T23:46:32.260Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Added-Archives-item-in-Menu-Links-in-Header"><a href="#Added-Archives-item-in-Menu-Links-in-Header" class="headerlink" title="Added Archives item in Menu(Links in Header )"></a>Added <em>Archives</em> item in Menu(Links in Header )</h1><h2 id="Returned-to-pure-CSS-‘cause-Stylus-won’t-work"><a href="#Returned-to-pure-CSS-‘cause-Stylus-won’t-work" class="headerlink" title="Returned to pure CSS ‘cause Stylus won’t work"></a>Returned to pure CSS ‘cause Stylus won’t work</h2><p><code>themes/ym-start/source/css/theme.css</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Added-Archives-item-in-Menu-Links-in-Header&quot;&gt;&lt;a href=&quot;#Added-Archives-item-in-Menu-Links-in-Header&quot; class=&quot;headerlink&quot; title=&quot;Added </summary>
+      
+    
+    
+    
+    
+    <category term="theme.css" scheme="https://blog.yskz.dev/tags/theme-css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Does Hexo markdown escapes HTML special characters?</title>
+    <link href="https://blog.yskz.dev/2023/02/01/does-hexo-markdown-escapes-html-special-characters/"/>
+    <id>https://blog.yskz.dev/2023/02/01/does-hexo-markdown-escapes-html-special-characters/</id>
+    <published>2023-02-01T01:46:35.000Z</published>
+    <updated>2023-02-03T08:13:19.580Z</updated>
+    
+    <content type="html"><![CDATA[<p>In Hexo, A markdown-format post is converted to HTML format.</p><p>HTML documents need to escape special two characters:</p><ul><li><em>Less-than</em>(&lt;) </li><li><em>Greater-than</em>(&gt;)</li></ul><p>respectively:</p><pre class="language-none"><code class="language-none">\&lt;\&gt;</code></pre><p>Markdown is easier than HTML about this escaping.</p><p>Just put an <em>escape</em> character <strong>backslash</strong> before special characters as:</p><pre class="language-none"><code class="language-none">\&lt;\&gt;</code></pre><p>But Markdown also needs to escape <strong>Backslash</strong> (\) as:</p><p><code>\\</code></p><p>or write its entity as:</p><p><code>&amp;bsol;</code></p><p>HTML-Entity backslash appears as: &amp;bsol;</p><p>And also, <strong>Ampersand</strong> (&amp;) might be better to be escaped as:</p><p><code>\&amp;</code></p><p>or write its entity as: <code>&amp;amp;</code></p><p>HTML-Entity ampersand appears as: &amp;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;In Hexo, A markdown-format post is converted to HTML format.&lt;/p&gt;
+&lt;p&gt;HTML documents need to escape special two characters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;e</summary>
+      
+    
+    
+    
+    
+    <category term="Markdown" scheme="https://blog.yskz.dev/tags/markdown/"/>
+    
+    <category term="Entity" scheme="https://blog.yskz.dev/tags/entity/"/>
+    
+    <category term="HTML" scheme="https://blog.yskz.dev/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>form in About page</title>
+    <link href="https://blog.yskz.dev/2023/01/29/form-in-About-page/"/>
+    <id>https://blog.yskz.dev/2023/01/29/form-in-About-page/</id>
+    <published>2023-01-29T12:54:38.000Z</published>
+    <updated>2023-01-29T13:01:16.534Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Added-‘About’-page-which-contains-a-form-to-send-comments-to-this-blog-site-owner"><a href="#Added-‘About’-page-which-contains-a-form-to-send-comments-to-this-blog-site-owner" class="headerlink" title="Added ‘About’ page which contains a form to send comments to this blog site owner."></a>Added ‘About’ page which contains a form to send comments to this blog site owner.</h2><p>‘About” page location is: <code>source/about/index.md</code> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Added-‘About’-page-which-contains-a-form-to-send-comments-to-this-blog-site-owner&quot;&gt;&lt;a href=&quot;#Added-‘About’-page-which-contains-a-for</summary>
+      
+    
+    
+    
+    
+    <category term="comment-form" scheme="https://blog.yskz.dev/tags/comment-form/"/>
+    
+    <category term="about-page" scheme="https://blog.yskz.dev/tags/about-page/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Added post date after title</title>
+    <link href="https://blog.yskz.dev/2023/01/28/added-post-date-after-title/"/>
+    <id>https://blog.yskz.dev/2023/01/28/added-post-date-after-title/</id>
+    <published>2023-01-28T04:40:59.000Z</published>
+    <updated>2023-01-28T04:57:47.988Z</updated>
+    
+    <content type="html"><![CDATA[<p>Under <code>ym-start/layout/index.pug</code>,<br> block content &gt; main &gt; article.post &gt; a </p><p>Added an <strong>hgroup</strong> tag which contains:</p><ul><li><code>h2.title= post.title</code></li><li><code>time.date= post.date.format(config.date_format)</code></li></ul><p>And also, edited the stylesheet of <code>ym-start/sources/css/theme.css</code> to make title and date inline as:</p><pre class="language-CSS" data-language="CSS"><code class="language-CSS">hgroup.title-date &gt; h2.title &#123;    display: inline;&#125;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Under &lt;code&gt;ym-start/layout/index.pug&lt;/code&gt;,&lt;br&gt; block content &amp;gt; main &amp;gt; article.post &amp;gt; a &lt;/p&gt;
+&lt;p&gt;Added an &lt;strong&gt;hgroup&lt;/stron</summary>
+      
+    
+    
+    
+    
+    <category term="config" scheme="https://blog.yskz.dev/tags/config/"/>
+    
+    <category term="CSS" scheme="https://blog.yskz.dev/tags/css/"/>
+    
+    <category term="Layout" scheme="https://blog.yskz.dev/tags/layout/"/>
+    
+    <category term="hgroup" scheme="https://blog.yskz.dev/tags/hgroup/"/>
+    
+    <category term="date.format" scheme="https://blog.yskz.dev/tags/date-format/"/>
+    
+  </entry>
+  
+</feed>
