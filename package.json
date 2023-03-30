@@ -22,21 +22,15 @@
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
-    "hexo-render-pug": "^2.1.4",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-markdown-it": "^7.0.0",
-    "hexo-renderer-pug": "^3.0.0",
-    "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-bootstrap": "^0.2.2",
     "run": "^1.4.0",
     "sanitize.css": "^13.0.0",
-    "sanitize.scss": "^1.0.0",
-    "xregexp": "^5.1.1",
-    "yo": "^4.3.1"
+    "yo": "^1.4.5"
   },
   "devDependencies": {
-    "@types/xregexp": "^4.4.0",
     "hexo-html-prettify": "^1.1.4",
     "ts-migrate": "^0.1.35"
   }
