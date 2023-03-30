@@ -1,0 +1,11 @@
+.eS_Store
+ehumbs.db
+db.json
+*.log
+index.html*
+.deploy*/
+_multiconfig.yml
+.ssh/
+source/_posts
+css/
+node_modules/
