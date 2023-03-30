@@ -1,6 +1,6 @@
 [submodule "source/_posts"]
 	path = source/_posts
-	url = https://github.com/Yasukazu/_posts.git
+	url = git@github.com:Yasukazu/_posts.git
 [submodule "themes/ym-start"]
 	path = themes/ym-start
 	url = git@github.com:Yasukazu/ym-start.git
@@ -11,3 +11,6 @@
 [submodule "plugins/ym-hexo-search-result"]
 	path = plugins/ym-hexo-search-result
 	url = git@github.com:Yasukazu/ym-hexo-search-result.git
+[submodule "themes/th"]
+	path = themes/th
+	url = git@github.com:Yasukazu/ym-yo-Hexo-theme-generator-theme.git
